@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hibbing School</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header img {
+            width: 100%; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            position: absolute; 
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 50px;
+        }
+
+        .feature {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About School</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <header>
+        <img src="img1.jpg" alt="Hibbing School Image">
+        <h1>Hibbing School</h1>
+        <p>Empowering Future Leaders</p>
+    </header>
+
+    <section>
+        <div class="feature">
+            <h2>About Us</h2>
+            <p>Welcome to Hibbing School, where we strive for excellence in education. Our dedicated staff and innovative programs create an environment where students can thrive academically and personally.</p>
+        </div>
+
+        <div class="feature">
+            <h2>Admissions</h2>
+            <p>Join the Hibbing School family! Our admissions process is designed to make it easy for you to become a part of our community. Apply online and explore the steps to enrollment.</p>
+        </div>
+
+        <div class="feature">
+            <h2>Academic Programs</h2>
+            <p>Discover our comprehensive range of academic programs that cater to the diverse interests and learning styles of our students. From STEM to humanities, we have it all.</p>
+        </div>
+
+        <div class="feature">
+            <h2>Extracurricular Activities</h2>
+            <p>At Singh School, we believe in a holistic education. Explore our exciting extracurricular activities, including sports, arts, and clubs, to nurture your talents outside the classroom.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hibbing School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
